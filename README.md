@@ -1,2 +1,2 @@
-# Steam_Games_Classification_System
-The project consists of a data classifying system consisting of information about video games available on Steam based on users' final rating
+# Steam Games Classification System
+- In this project, I created a system to classify games on the famous Steam site according to user ratings This project contains all the operations necessary to process the data to prepare it for the model Along with all the processes necessary to build an artificial intelligence model capable of excellent classification of data .
