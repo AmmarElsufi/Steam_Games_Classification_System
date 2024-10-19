@@ -2,16 +2,18 @@ SHOW DATABASES  ;
 USE steam_games_recommendations_system ; 
 SHOW TABLES ; 
 
+SELECT COUNT(*) FROM steam_games_extracted_phase_1  ; 
+
 -- ----------------------------------------------------------------------------------------------------------------------------------------
 ## Making a data clone 
 
--- CREATE TABLE  data_clone
--- 	LIKE steam_games_extracted_phase_1 ; 
+CREATE TABLE  data_clone 
+	LIKE steam_games_extracted_phase_1 ; 
 
--- INSERT INTO data_clone 
--- 	SELECT * FROM steam_games_extracted_phase_1 ; 
+INSERT INTO data_clone 
+	SELECT * FROM steam_games_extracted_phase_1 ; 
 
-
+SELECT COUNT(*) FROM data_clone; 
 -- ---------------------------------------------------------------------------------------------------------------------------------------
 DESC data_clone ; 
 SELECT * FROM  data_clone ; 
